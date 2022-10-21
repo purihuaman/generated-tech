@@ -1,0 +1,92 @@
+// ==> Typography <==
+
+@function font-rem($size, $base: 16px) {
+	@if type-of($size) == number and unit($size) == 'px' {
+		@return (calc($size / $base) * 1rem);
+	}
+}
+
+// ==> Fonts <==
+$fonts: (
+	title1: #{font-rem(48px)} var(--body-line-height),
+	title2: #{font-rem(32px)} var(--body-line-height),
+	title3: #{font-rem(25px)} var(--body-line-height),
+	title4: #{font-rem(20px)} var(--body-line-height),
+	base: #{font-rem(18px)} var(--body-line-height),
+	small: #{font-rem(16px)} var(--body-line-height),
+	smaller: #{font-rem(15px)} var(--body-line-height),
+);
+
+$bold-font: var(--bold-font);
+$normal-font: var(--normal-font);
+
+@mixin font($size) {
+	font-size: nth(map-get($fonts, $size), 1);
+	line-height: nth(map-get($fonts, $size), 2);
+	margin: 0;
+}
+
+h1,
+.title1 {
+	@include font(title2);
+
+	@include querys(laptops) {
+		@include font(title1);
+	}
+}
+
+h2,
+.title2 {
+	@include font(title3);
+
+	@include querys(laptops) {
+		@include font(title2);
+	}
+}
+
+h3,
+.title3 {
+	@include font(title4);
+
+	@include querys(laptops) {
+		@include font(title3);
+	}
+}
+
+h4,
+.title4 {
+	@include font(base);
+
+	@include querys(laptops) {
+		@include font(title4);
+	}
+}
+
+body {
+	font-family: var(--body-font);
+	font-weight: $normal-font;
+	@include font(base);
+}
+
+small,
+.small {
+	@include font(small);
+}
+
+.smaller {
+	@include font(smaller);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+.bold,
+.semibold {
+	color: var(--title-color);
+	font-weight: $bold-font;
+	font-family: var(--heading-font);
+}

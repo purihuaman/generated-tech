@@ -1,0 +1,24 @@
+.language {
+	&__header {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: var(--n-gap);
+		background-color: var(--second-bg);
+		padding: var(--n-padding) 0;
+		padding: var(--n-padding);
+		margin-bottom: var(--l-margin);
+		overflow: hidden;
+	}
+
+	&__content {
+		background-color: var(--second-bg);
+		padding: var(--x-padding) var(--n-padding);
+	}
+
+	&__others {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		gap: var(--n-gap);
+	}
+}

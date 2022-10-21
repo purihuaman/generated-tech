@@ -1,0 +1,59 @@
+// ==> Estilos base <==
+
+body {
+	transition: var(--transition);
+	color: var(--text-color);
+	background-color: var(--first-bg);
+	position: relative;
+
+	&::after,
+	&::before {
+		// content: '';
+		display: block;
+		position: absolute;
+
+		z-index: var(--z-back);
+		width: 100%;
+		height: 50%;
+		left: 0;
+	}
+
+	&::before {
+		top: 0;
+		background-image: linear-gradient(
+			90deg,
+			rgba(19, 152, 254, 0.04) -4.28%,
+			rgba(19, 152, 254, 0.04) 28.01%,
+			rgba(162, 89, 255, 0.04) 73.64%,
+			rgba(162, 89, 255, 0.04) 100%
+		);
+	}
+	&::after {
+		top: 50%;
+		// background-image: linear-gradient(
+		// 	90deg,
+		// 	rgba(162, 89, 255, 0.04) -4.28%,
+		// 	rgba(162, 89, 255, 0.04) 28.01%,
+		// 	rgba(19, 152, 254, 0.04) 73.64%,
+		// 	rgba(19, 152, 254, 0.04) 100%
+		// );
+
+		background-image: linear-gradient(
+			90deg,
+			rgba(19, 152, 254, 0.04) -4.28%,
+			rgba(19, 152, 254, 0.04) 28.01%,
+			rgba(162, 89, 255, 0.04) 73.64%,
+			rgba(162, 89, 255, 0.04) 100%
+		);
+	}
+}
+
+// ==> Screen general <==
+
+.screen {
+	max-width: var(--screen);
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	overflow: hidden;
+}

@@ -1,0 +1,5 @@
+.btn {
+	@include button;
+}
+
+@include type-btn(map-keys($button-colors), map-keys($button-hover));

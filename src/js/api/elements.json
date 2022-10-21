@@ -1,0 +1,251 @@
+{
+	"adobe flex": [["flash", "xml"]],
+	"meme spiderman": [
+		["mariadb", "mysql"],
+		["terminal", "zsh"]
+	],
+	"mysql": [["mariadb", "oracle"]],
+	"notepad": [["microsoft", "markdown"]],
+	"oracle": [["java", "sql"]],
+	"msdos": [["terminal", "microsoft"]],
+	"ruby on rails": [["ruby", "terminal"]],
+	"sql server": [["microsoft", "sql"]],
+	"styled components": [["css", "jsx"]],
+	"actionscript": [["javascript", "flash"]],
+	"angular": [
+		["typescript", "google"],
+		["rxjs", "javascript"]
+	],
+	"google": [["c", "go"]],
+	"firebase": [
+		["google", "sql"],
+		["google", "mongodb"]
+	],
+	"sublime text": [["python", "c++"]],
+	"asp": [["php", "visual basic"]],
+	"qbasic": [["terminal", "msdos"]],
+	"visual basic": [["qbasic", "c sharp"]],
+	"astro": [["jsx", "html"]],
+	"blade": [["html", "php"]],
+	"c": [["terminal", "bash"]],
+	"bootstrap": [["css", "css"]],
+	"brainfuck": [["lisp", "lisp"]],
+	"microsoft": [["internet explorer", "internet explorer"]],
+	"bsod": [["microsoft", "microsoft"]],
+	"zig": [["asm", "c++"]],
+	"bun": [
+		["zig", "webkit"],
+		["zig", "javascript"]
+	],
+	"c++": [["c", "c"]],
+	"java": [["terminal", "internet explorer"]],
+	"dotnet": [["java", "c++"]],
+	"c sharp": [["c++", "c++"]],
+	"carbon": [["c++", "rust"]],
+	"clojure": [
+		["lisp", "java"],
+		["lisp", "javascript"]
+	],
+	"cobol": [["asm", "sql"]],
+	"npm": [["terminal", "javascript"]],
+	"safari": [["internet explorer", "apple"]],
+	"codesandbox": [["npm", "git"]],
+	"coffeescript": [["javascript", "java"]],
+	"kotlin": [["java", "java"]],
+	"dart": [["kotlin", "javascript"]],
+	"deno": [
+		["typescript", "javascript"],
+		["typescript", "nodejs"]
+	],
+	"github": [
+		["git", "git"],
+		["git", "microsoft"]
+	],
+	"ios": [["swift", "apple"]],
+	"pug": [["nodejs", "html"]],
+	"gatsby": [["javascript", "react"]],
+	"stack overflow": [["node modules", "node modules"]],
+	"docker": [
+		["git", "zip"],
+		["terminal", "jpeg"],
+		["linux", "zip"]
+	],
+	"chrome": [
+		["chromium", "google"],
+		["internet explorer", "google"]
+	],
+	"bower": [["npm", "internet explorer"]],
+	"autoprefixer": [["postcss", "css"]],
+	"stylelint": [["css", "eslint"]],
+	"edge": [
+		["internet explorer", "chromium"],
+		["internet explorer", "chrome"],
+		["microsoft", "chromium"],
+		["microsoft", "chrome"]
+	],
+	"webkit": [["apple", "google"]],
+	"apple": [["swift", "c sharp"]],
+	"chromium": [["google", "webkit"]],
+	"firefox": [["rust", "css"]],
+	"eleventy": [["markdown", "javascript"]],
+	"electron": [
+		["javascript", "chrome"],
+		["javascript", "firefox"],
+		["javascript", "edge"]
+	],
+	"elixir": [["ruby", "erlang"]],
+	"flash": [["svg", "javascript"]],
+	"flask": [["python", "html"]],
+	"yaml": [["python", "json"]],
+	"markdown": [["html", "word"]],
+	"word": [
+		["microsoft", "notepad"],
+		["xml", "microsoft"]
+	],
+	"notepad++": [
+		["notepad", "c++"],
+		["notepad", "notepad"]
+	],
+	"frontmatter": [["markdown", "yaml"]],
+	"objective c": [["c", "java"]],
+	"swift": [["objective c", "c"]],
+	"go": [["c++", "javascript"]],
+	"graphql": [["javascript", "sql"]],
+	"handlebars": [["javascript", "mustache"]],
+	"babel": [["javascript", "javascript"]],
+	"es2015": [["babel", "babel"]],
+	"hugo": [["go", "markdown"]],
+	"jquery": [["internet explorer", "javascript"]],
+	"internet explorer": [["babel", "javascript"]],
+	"html4": [["html", "internet explorer"]],
+	"pandas": [["python", "excel"]],
+	"jekyll": [["ruby", "frontmatter"]],
+	"json": [["xml", "javascript"]],
+	"jsx": [["html", "javascript"]],
+	"jupiter": [["python", "word"]],
+	"linq": [["c sharp", "sql"]],
+	"android": [["linux", "java"]],
+	"mspaint": [["microsoft", "jpeg"]],
+	"bmp": [["microsoft", "mspaint"]],
+	"yahoo": [["bing", "bing"]],
+	"jpeg": [["bmp", "zip"]],
+	"ionic": [
+		["angular", "android"],
+		["angular", "ios"]
+	],
+	"debian": [["linux", "terminal"]],
+	"linux": [
+		["unix", "gnome"],
+		["c", "terminal"]
+	],
+	"lit": [
+		["web components", "javascript"],
+		["web components", "typescript"]
+	],
+	"lua": [["bash", "c++"]],
+	"mariadb": [["sql", "c++"]],
+	"esbuild": [
+		["go", "javascript"],
+		["go", "webpack"]
+	],
+	"2pac": [["webpack", "webpack"]],
+	"webpack": [
+		["nodejs", "terminal"],
+		["gulp", "nodejs"]
+	],
+	"markdown lint": [["markdown", "eslint"]],
+	"mediawiki": [["php", "html"]],
+	"mongodb": [
+		["json", "nodejs"],
+		["json", "sql"]
+	],
+	"gulp": [["babel", "terminal"]],
+	"grunt": [["gulp", "internet explorer"]],
+	"mdx": [["web components", "markdown"]],
+	"storybook": [["web components", "mdx"]],
+	"nestjs": [["angular", "nodejs"]],
+	"nextjs": [
+		["react", "markdown"],
+		["react", "nodejs"]
+	],
+	"node modules": [["nodejs", "npm"]],
+	"nodejs": [
+		["deno", "node modules"],
+		["npm", "javascript"]
+	],
+	"nuxt": [["vue", "markdown"]],
+	"pnpm": [["npm", "npm"]],
+	"postcss": [
+		["autoprefixer", "javascript"],
+		["css", "javascript"]
+	],
+	"preact": [["jsx", "javascript"]],
+	"pyscript": [["python", "html"]],
+	"qt": [["c++", "html"]],
+	"qwik": [["astro", "react"]],
+	"react": [
+		["php", "javascript"],
+		["preact", "javascript"],
+		["preact", "webpack"]
+	],
+	"haskell": [["javascript", "c"]],
+	"rust": [["c++", "haskell"]],
+	"sass": [
+		["css", "less"],
+		["css", "typescript"]
+	],
+	"solidjs": [["react", "vue"]],
+	"excel": [["python", "microsoft"]],
+	"sql": [
+		["excel", "json"],
+		["javascript", "excel"],
+		["sqlite", "sqlite"]
+	],
+	"sqlite": [["sql", "c"]],
+	"svelte": [["javascript", "jquery"]],
+	"svelte kit": [["svelte", "markdown"]],
+	"xml": [["html", "html"]],
+	"svg": [["xml", "css"]],
+	"tailwindcss": [
+		["bootstrap", "sass"],
+		["html", "css"]
+	],
+	"tauri": [["rust", "nodejs"]],
+	"typescript": [
+		["javascript", "java"],
+		["javascript", "c sharp"],
+		["javascript", "microsoft"]
+	],
+	"python": [["javascript", "bash"]],
+	"perl": [["bash", "c"]],
+	"php": [["terminal", "perl"]],
+	"bing": [["microsoft", "google"]],
+	"twig": [["php", "mustache"]],
+	"eslint": [["javascript", "es2015"]],
+	"rollup": [["gulp", "es2015"]],
+	"vite": [["rollup", "javascript"]],
+	"vi": [["terminal", "word"]],
+	"ruby": [["lua", "c"]],
+	"vim": [["vi", "lua"]],
+	"manzdev": [["css", "web components"]],
+	"vscode": [
+		["vim", "eslint"],
+		["electron", "typescript"],
+		["javascript", "github"],
+		["microsoft", "electron"]
+	],
+	"neovim": [["vim", "vim"]],
+	"angularjs": [["google", "javascript"]],
+	"vue": [
+		["angularjs", "es2015"],
+		["html", "web components"]
+	],
+	"wasm": [
+		["asm", "javascript"],
+		["rust", "javascript"]
+	],
+	"wordpress": [["php", "sql"]],
+	"wsl": [["microsoft", "debian"]],
+	"zsh": [["bash", "bash"]],
+	"bash": [["terminal", "terminal"]]
+}
