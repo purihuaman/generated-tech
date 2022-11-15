@@ -287,11 +287,4 @@ export const CreateCardElement = () => {
 	);
 
 	const sortedCrafteable = crafteable.sort();
-
-	console.log(
-		'Crafteable: ',
-		sortedCrafteable.slice(0, 100),
-		sortedCrafteable.slice(100)
-	);
-	console.log('No crafteable: ', notCrafteable.sort());
 };
